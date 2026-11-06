@@ -1,4 +1,5 @@
-name = "img"
+# wrangler.toml
+name = 'workers-image-hosting'
 main = "./src/index.js"
 compatibility_date = "2022-11-08"
 
