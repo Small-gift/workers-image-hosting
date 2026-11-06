@@ -3,7 +3,7 @@ name = 'workers-image-hosting'
 main = "./src/index.js"
 compatibility_date = "2022-11-08"
 
-kv_namespaces: [
+"kv_namespaces": [
     {
       "binding": "LINK",
       "id": "fb6f75e3fae84ca886f8896e0bfda806"
