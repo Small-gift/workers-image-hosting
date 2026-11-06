@@ -1,10 +1,13 @@
 #:schema node_modules/wrangler/config-schema.json
 name = "workers-image-hosting"
 main = "src/index.js"
-compatibility_date = "2026-11-06"
+compatibility_date = "2022-11-06"
 compatibility_flags = ["nodejs_compat_v2"]
 
 # 绑定 KV 命名空间（图床核心数据存储）
 [[kv_namespaces]]
 binding = "LINK"
 id = "fb6f75e3fae84ca886f8896e0bfda806"
+
+[site]
+bucket = "./static/dist"
