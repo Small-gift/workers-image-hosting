@@ -6,5 +6,3 @@ compatibility_date = "2022-11-08"
 kv_namespaces = [
   { binding = "LINK", id = "fb6f75e3fae84ca886f8896e0bfda806",preview_id='fb6f75e3fae84ca886f8896e0bfda806'}
 ]
-[site]
-bucket = "./static/dist"
