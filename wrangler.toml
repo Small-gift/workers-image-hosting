@@ -2,6 +2,7 @@
 name = "workers-image-hosting"
 main = "src/index.js"
 compatibility_date = "2026-11-06"
+compatibility_flags = ["nodejs_compat"]
 
 # 绑定 KV 命名空间（图床核心数据存储）
 [[kv_namespaces]]
